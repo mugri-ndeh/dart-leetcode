@@ -39,7 +39,7 @@ void fibbonaccisum(int limit) {
     if (holder % 2 == 0 && holder < limit) {
       sum = sum + holder;
     }
-    //check if number exceeds 4000000, then remove from list and break loop
+    //check if number exceeds limit, then remove from list and break loop
     if (holder >= limit) {
       fibSeries.removeLast();
       break;
