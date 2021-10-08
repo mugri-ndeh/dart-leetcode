@@ -1,10 +1,6 @@
-import 'dart:io';
-
-import 'package:learning_dart/learning_dart.dart' as learning_dart;
-
-import 'multiplesofXorX.dart';
+import 'functions.dart';
 
 void main(List<String> arguments) {
-  //multiplesofxorx(3, 5);
+  multiplesofxorx(3, 5);
   fibbonaccisum(18);
 }
